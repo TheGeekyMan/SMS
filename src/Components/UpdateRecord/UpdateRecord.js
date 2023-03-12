@@ -15,11 +15,11 @@ export const UpdateRecord = () => {
     const [fetch,isFetch] = useState(false);
 
     const updateStudentHandler = (data) => {
-        return axios.patch(`https://my-json-server.typicode.com/TheGeekyMan/SMS/students/${isId}`,data);
+        return axios.patch(`http://localhost:4000/students/${isId}`,data);
     }
 
     const fetchStudent = () => {
-        return axios.get(`https://my-json-server.typicode.com/TheGeekyMan/SMS/students/${isId}`)
+        return axios.get(`http://localhost:4000/students/${isId}`)
     }
 
     useEffect(()=>{

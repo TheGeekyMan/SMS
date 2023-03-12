@@ -1,4 +1,8 @@
-Student Management System using React and React-Query.
+# Student Management System using React and React-Query.
+
+1. yarn install
+2. yarn json-server --watch db.json --port 4000 :- to start json server
+3. yarn start :- to run app
 
 # Getting Started with Create React App
 

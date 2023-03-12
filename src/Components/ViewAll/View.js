@@ -8,7 +8,7 @@ export const View = () => {
     const navigate = useNavigate();
 
     const fetchStudent = () => {
-        return axios.get("https://my-json-server.typicode.com/TheGeekyMan/SMS/students");
+        return axios.get("http://localhost:4000/students");
     }
 
     const {isLoading, data, isError, error} = useQuery("students",fetchStudent);
