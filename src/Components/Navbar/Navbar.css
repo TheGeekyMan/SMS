@@ -1,0 +1,33 @@
+.navbar{
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    margin-top: 0;
+    position: relative;
+}
+
+.left-list{
+    position: absolute;
+    width: auto;
+    display: flex;
+    top: 15px;
+}
+
+.right-list{
+    width: auto;
+    display: flex;
+    right: 20px;
+    position: absolute;
+    top: 15px;
+}
+.list-item{
+    padding-right: 20px;
+    color: aliceblue !important;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+

@@ -1,0 +1,40 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Rohit",
+        "city": "Mumbai"
+      },
+      {
+        "id": 2,
+        "name": "Virat",
+        "city": "Bangalore"
+      },
+      {
+        "id": 3,
+        "name": "Dhoni",
+        "city": "Chennai"
+      },
+      {
+        "id": 4,
+        "name": "Hardik",
+        "city": "Gujrat"
+      },
+      {
+        "id": 5,
+        "name": "Rahul",
+        "city": "Punjab"
+      },
+      {
+        "id": 6,
+        "name": "karthik",
+        "city": "Kolkata"
+      },
+      {
+        "name": "Onkar",
+        "city": "Pune",
+        "id": 7
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rohit",
+      "city": "Mumbai"
+    },
+    {
+      "id": 4,
+      "name": "Hardik",
+      "city": "Gujrat"
+    },
+    {
+      "id": 5,
+      "name": "Rahul",
+      "city": "Punjab"
+    },
+    {
+      "id": 6,
+      "name": "DK",
+      "city": "Kolkata"
+    },
+    {
+      "name": "Onkar",
+      "city": "Pune",
+      "id": 7
+    },
+    {
+      "name": "Virat",
+      "city": "Bangalore",
+      "id": 8
+    },
+    {
+      "name": "Dhoni",
+      "city": "Chennai",
+      "id": 9
+    },
+    {
+      "name": "Warner",
+      "city": "Hydrabad",
+      "id": 10
+    }
+  ]
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './Components/Navbar/Navbar';
+import {QueryClientProvider, QueryClient} from 'react-query';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { View } from './Components/ViewAll/View';
+import { AddRecord } from './Components/AddRecord/AddRecord';
+import { UpdateRecord } from './Components/UpdateRecord/UpdateRecord';
+import { DeleteRecord } from './Components/DeleteRecord/DeleteRecord';
 
 function App() {
+
+  const queryClient = new QueryClient()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <Router>
+      <NavBar />
+      <Routes>
+        <Route path='/viewAll' element={<View />}></Route>
+        <Route path='/' element={<View />}></Route>
+        <Route path='/add-record' element={<AddRecord />}></Route>
+        <Route path='/update-record' element={<UpdateRecord />}></Route>
+        <Route path='/delete-record' element={<DeleteRecord />}></Route>
+      </Routes>
+      </Router>
+    </QueryClientProvider>
   );
 }
 

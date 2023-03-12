@@ -1,0 +1,33 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .viewAllTable{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .btn-update{
+    margin: 10px 20px;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .item-value{
+    text-align: center;
+  }
