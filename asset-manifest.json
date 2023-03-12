@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SMS/static/css/main.f44e62a7.css",
+    "main.js": "/SMS/static/js/main.df5b9647.js",
+    "static/js/787.30e13969.chunk.js": "/SMS/static/js/787.30e13969.chunk.js",
+    "index.html": "/SMS/index.html",
+    "main.f44e62a7.css.map": "/SMS/static/css/main.f44e62a7.css.map",
+    "main.df5b9647.js.map": "/SMS/static/js/main.df5b9647.js.map",
+    "787.30e13969.chunk.js.map": "/SMS/static/js/787.30e13969.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f44e62a7.css",
+    "static/js/main.df5b9647.js"
+  ]
+}
